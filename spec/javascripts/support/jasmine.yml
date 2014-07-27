@@ -11,8 +11,9 @@
 #   - lib/source2.js
 #   - dist/**/*.js
 #
-src_files: 
-  - js/*.js
+src_files:
+  - "bower_components/jquery/dist/jquery.min.js"
+  - "js/*.js"
 
 # stylesheets
 #
@@ -38,7 +39,7 @@ stylesheets:
 #   - helpers/**/*.js
 #
 helpers:
-  - helpers/**/*.js"
+  - helpers/**/*.js
 
 # spec_files
 #
@@ -75,3 +76,4 @@ src_dir: "static"
 # spec_dir: spec/javascripts
 #
 spec_dir: spec/javascripts
+
